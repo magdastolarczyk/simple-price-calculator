@@ -1,0 +1,41 @@
+<head>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<div id="container">
+  <h1>How much you have to pay</h1>
+  <div id="calculator">
+
+    <form>
+      <p>How much was your delicious dinner?
+        <p>
+          € <input id="bill_amount" type="text" placeholder="Please type in your bill amount">
+
+          <p>How good was your service?
+            <p>
+              <select id="service_qual">
+            <option disabled selected value="0">Choose an Option</option>
+            <option value="0.2">20&#37; &#45; Fantastic</option>
+            <option value="0.15">15&#37; &#45; Very good</option>
+            <option value="0.1">10&#37; &#45; Good</option>
+            <option value="0.05">5&#37; &#45; Average</option>
+        </select>
+
+    </form>
+    <p>How many people are sharing the bill?</p>
+    <input id="people_amount" type="text" placeholder="Number of people">
+    <button type="button" id="calculate">Calculate</button>
+
+  </div>
+  <!--calculator end-->
+  <div id="totalPrice">
+    <sup>€</sup><span id="price">0.00</span>
+    <small id="each">each</small>
+  </div>
+  <!--totalTip end-->
+
+</div>
+<!--container end-->
+
+<script type="text/javascript" src="pricecalculator.js"></script>

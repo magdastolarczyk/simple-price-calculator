@@ -1,0 +1,99 @@
+body {
+  font-family: Lato;
+  background: #fafafa;
+  color: white;
+  text-align: center;
+}
+
+#container {
+  width: 500px;
+  margin: 50px auto;
+  background: #5b4866;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding-bottom: 1px;
+}
+
+h1 {
+  background: #1F030C;
+  color: white;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+form input[type="text"] {
+  width=90px;
+}
+
+#bill_amount, #people_amount {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  width: 50%;
+  padding: 5px;
+}
+
+#bill_amount:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#service_qual {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #483a50;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #2e2533;
+  cursor: pointer;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalPrice {
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+#totalPrice:before {
+  content: "To pay:";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalPrice sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalPrice small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
